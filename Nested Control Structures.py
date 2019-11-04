@@ -21,6 +21,7 @@ for i in range (3):
 
         print ("     Inner For Loop: " + str(l))
 
+
 '''
 '''
 Programmer: Mr. Lange
@@ -45,4 +46,24 @@ for i in range(num_people):
      
 
         print ("\tInner For Loop: " + str(l))
+
+
+
+
+print ("\n****************\n")
+
+
+'''
+Programmer: Blake McKenzie
+Date: 10.23.19
+Program: Categories
+This program will ask users for an interest of them
+then ask for two items related to that interest
+'''
+for i in range(4):
+    print ("Outer For Loop: " + str(i)) 
+    x = 6 
+    while x >= 0:
+        print("    While Loop: " + str(x))
+        x = x - 1
 
